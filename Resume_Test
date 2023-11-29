@@ -61,7 +61,7 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-1pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
@@ -83,9 +83,9 @@
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-8pt}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-12pt}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-12pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 
 %--------------RESUME STARTS HERE-----------------------------
@@ -93,7 +93,7 @@
 
 %----------HEADING----------
 \begin{center}
-    \textbf{\Huge \scshape Matthew Juhasz} \\ \vspace{1pt}
+    \textbf{\Huge \scshape Matthew Juhasz} \\
     \small{Aurora, ON} $|$
     \small 647-574-4206 $|$ \href{mailto:matthew.a.juhasz@gmail.com}{\underline{matthew.a.juhasz@gmail.com}} $|$ 
     \href{https://www.linkedin.com/in/matthew-juhasz}{\underline{linkedin.com/in/matthew-juhasz}}
@@ -106,37 +106,37 @@
       {University of Toronto St. George}{Sept. 2019 -- June 2023}
       {\textbf {Honours Bachelor of Science} \normalfont in Human Biology -- \textit{With High Distinction}}{}
       \resumeItemListStart
-          \resumeItem {Major in Human Biology -- Neuroscience, with Minor's in Physiology \& Psychology}
-           \resumeItem {Victoria College Regents In-Course Scholarship}
-           \resumeItem {Dean’s List Scholar for Summer of 2020, Summer of 2021, Winter of 2023}
-           \resumeItem {The Rakoczi Prize in Hungarian Studies 2021-2022}
+        \resumeItem{Major in Human Biology -- Neuroscience, with Minor's in Physiology \& Psychology}
+        \resumeItem{Victoria College Regents In-Course Scholarship}
+        \resumeItem{Dean’s List Scholar for Summer of 2020, Summer of 2021, Winter of 2023}
+           \resumeItem{The Rakoczi Prize in Hungarian Studies 2021-2022}
       \resumeItemListEnd
+      \resumeSubHeadingListEnd
 
 %-----------SKILLS-----------
 \section{Skills}
-\vspace{-10pt}
     \resumeSubHeadingListStart
       \resumeProjectHeading
           {\textbf{Soft Skills} $|$ \emph{Developed through Royal Canadian Army Cadets and Research Experience}}{}
           \resumeItemListStart
             \resumeItem{Effective communication and presentation skills, proficient in conveying complex ideas with clarity and precision.}
-              \resumeItem{Highly organized and competent at various forms of data, file, and information management}
-              \resumeItem{Excellent critical thinking and decision-making skills, even under high-stress conditions}
-              \resumeItem{Exemplary work ethic and punctuality, consistently delivering high-quality results with timeliness}
-              \resumeItem{Leadership and discipline cultivated in the Royal Canadian Army Cadets, developing strong adaptability and resilience.}
+              \resumeItem{Highly organized and competent at various forms of data, file, and information management.}
+              \resumeItem{Excellent critical thinking and decision-making skills, even under high-stress conditions.}
+              \resumeItem{Exemplary work ethic and punctuality, consistently delivering high-quality results with timeliness.}
+              \resumeItem{Excellent work ethic, punctuality, and leadership skills developed through discipline and participation in the Royal Canadian Army Cadets}
           \resumeItemListEnd
+          
       \resumeProjectHeading
           {\textbf{Hard Skills} $|$ \emph{Developed through Projects and work-place training}}{}
           \resumeItemListStart
-              \resumeItem{Software: Microsoft Office \& Google Suite, QuickBooks, Shopify, Soarian, BioPac, BrainStorm, BioRender}
-              \resumeItem {Programming Languages: Back-end \textit{Python}, Git and GitHub, \textit{LaTeX} Editor}
-              \resumeItem {3 Years of Laboratory Experience: Exemplifying lab technique precision, organization, and attention to detail}
+              \resumeItem{Software: Microsoft Office \& Google Suite, QuickBooks, Shopify, Soarian, BioPac, BrainStorm, BioRender.}
+              \resumeItem {Programming Languages: Back-end Python, Git and GitHub, LaTeX.}
+              \resumeItem {3 Years of Laboratory Experience: Exemplifying lab technique precision, organization, and attention to detail.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE Section-----------
 \section{Experience}
-\vspace{-10pt}
   \resumeSubHeadingListStart
   
     %-----------RP Experience Subheading-----------
@@ -144,21 +144,21 @@
       {Operations and Ambassador Program Manager}{Oct 2023 -- Current}
       {Retaliation Project}{Remote -- Toronto ON}
       \resumeItemListStart
-        \resumeItem{Successfully oversee and manage the Retaliation Project Affiliate and Ambassador Program. Conduct two check-ins weekly with 75 company Ambassadors to ensure deliverable quotas are met, with optimization to enhanced performance and time efficiency of program upkeep.}
-        \resumeItem{Effectively manage inventory, website maintenance, and product item information through Back-end Shopify.  Handle the end-to-end order processing, including editing and drafting orders as needed.  Additionally communicate with Fulfillment to ensure timely delivery and daily shipment quotas are met via Skype}
-        \resumeItem{Engage in community interaction through the creation and orchestration of events, giveaways, and community engagement via Social Media Platforms with prize pools of up to \$1500 USD}
-        \resumeItem{Contribute to overall operational efficiency of the back-end through the coordination of various team tasks, resource management, ultimately showcasing adaptability in a dynamic 1st year-startup environment.}
+        \resumeItem{Successfully oversee the Retaliation Project Ambassador Program, ensuring the fulfillment of deliverable quotas through weekly interactions with 75+ Ambassadors. Optimize performance and enhance efficiency by refining program maintenance processes.}
+        \resumeItem{Proficiently manage inventory, website maintenance, and ensure seamless end-to-end order processing on the Back-end Shopify platform.}
+        \resumeItem{Playing a pivotal role in enhancing overall operational efficiency, showcasing adaptability and resourcefulness in a dynamic 1st year-startup environment, with responsibilities not limited to the aforementioned.}
+
       \resumeItemListEnd
     %-----------SMH Experience Subheading-----------
     \resumeSubheading
       {Volunteer Research Assistant}{June 2022 -- Current}
       {St. Michael's Hospital and Keenan Research Centre for Biomedical Science}{36 Queen St E. Toronto, ON}
       \resumeItemListStart
-        \resumeItem{Participated in the scientific writing process, editing, and formulation of a final draft of a manuscript titled ``Inner Dialogue Dysfunction and the Abusive Comments of the Dominant Hemisphere'' in the academic Journal, Neurocase.}
-        \resumeItem{Accessed and maintained confidential Personal Health Information via Unity Health's Sorian Database and the SMH Memory Clinic Excel Database.}
+        \resumeItem{Integral involvement in the scientific writing process, contributing significantly to the formulation and editing of a manuscript titled ``Inner Dialogue Dysfunction and the Abusive Comments of the Dominant Hemisphere'' for the esteemed peer-reviewed scientific journal, Neurocase.}
+        \resumeItem{Diligently accessed and maintaining confidential Personal Health Information via Unity Health’s Sorian Database and the SMH Memory Clinic Excel Database.}
         \resumeItem{Summarized and presented patient information and trends within the SMH Memory Clinic.}
         \resumeItem{Collaborated with research team to identify data of interest and irrelevant or redundant data, followed by the amendment of intake questionnaires and consent forms.}
-        \resumeItem{Altered the database to extract, interpret, and visualize data in a way catered to the research projects needs.}
+        \resumeItem{Implementing database alterations to extract, interpret, and visually represent data tailored to the specific needs of ongoing research projects.}
       \resumeItemListEnd
       
     %-----------PPPC Experience Subheading-----------
@@ -166,11 +166,9 @@
       {Administrative Assistant}{March 2018 -- August 2022}
       {Pilowsky Professional Psychology Corporation}{4 Beamish Dr. Etobicoke, ON}
       \resumeItemListStart
-        \resumeItem{Assistance with general Clerical Duties}
-        \resumeItem{Assistance with general Book-keeping records}
-        \resumeItem{Assisted in managing bills payable, meticulously and precisely tallying incoming payments while crosschecking QuickBooks, and handling bank deposits during the bookkeeper's absence.}
-        \resumeItem{Assisted in file creation and file management on the \textit{File Management System} software of patient information}
-        \resumeItem{Direct patient interaction through appointment reminders and intake screenings}
+        \resumeItem{General clerical duties, including file creation and management on the File Management System software.}
+        \resumeItem{Assisted in bookkeeping records and managed bills payable, meticulously tallying incoming payments while crosschecking QuickBooks. Handled bank deposits during the bookkeeper’s absence.}
+        \resumeItem{Engaged directly with patients with intake screenings and phone call appointment reminders.}
     \resumeItemListEnd
 
     %---------The North Experience Subheading-----------
@@ -178,10 +176,10 @@
       {Assistant Line Cook}{January 2018 -- June 2018}
       {The North Restaurant}{49 Mary St. Barrie, ON}
       \resumeItemListStart
-        \resumeItem{Assistance with elaborate dishes, focusing specifically on detail and quality}
-        \resumeItem{Maintain a clean, organized workspace maximizing efficiency during dinner rush}
+        \resumeItem{Assistance with elaborate dishes, focusing specifically on detail and quality.}
+        \resumeItem{Maintain a clean, organized workspace maximizing efficiency during dinner rush.}
       \resumeItemListEnd
-  \resumeSubHeadingListEnd
+        \resumeSubHeadingListEnd
 
   
 
@@ -194,9 +192,6 @@
 
 
 
-
-
-    
 %-----------Cadets Section-----------
 \section{Royal Canadian Army Cadets}
     \resumeSubHeadingListStart
