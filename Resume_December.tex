@@ -1,0 +1,219 @@
+%-------------------------
+% Resume in Latex
+% Author : Matthew Juhasz
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+%vspace removes the white space between the sections.  make tighter if low on space.  
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-12pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%--------------RESUME STARTS HERE-----------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Matthew Juhasz} \\
+    \small{Aurora, ON} $|$
+    \small 647-574-4206 $|$ \href{mailto:matthew.a.juhasz@gmail.com}{\underline{matthew.a.juhasz@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/matthew-juhasz}{\underline{linkedin.com/in/matthew-juhasz}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Toronto St. George}{Sept. 2019 -- June 2023}
+      {\textbf {Honours Bachelor of Science} -- \textit{With High Distinction}}{}
+      \resumeItemListStart
+        \resumeItem{Major in Human Biology -- Neuroscience, with Minor's in Physiology \& Psychology}
+        \resumeItem{Victoria College Regents In-Course Scholarship}
+        \resumeItem{Dean’s List Scholar for Summer of 2020, Summer of 2021, Winter of 2023}
+           \resumeItem{The Rakoczi Prize in Hungarian Studies 2021-2022}
+      \resumeItemListEnd
+      \resumeSubHeadingListEnd
+
+
+
+%-----------EXPERIENCE Section-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+     
+%-----------PPPC Experience Subheading-----------
+    \resumeSubheading
+      {Administrative Assistant}{March 2018 -- August 2022}
+      {Pilowsky Professional Psychology Corporation}{Etobicoke}
+      \resumeItemListStart
+        \resumeItem{Direct assistant to Dr. Pilowsky, responsible for drafting documents, forwarding patient calls, and scheduling patient appointments in accordance with Dr. Pilowsky's schedule. }
+        \resumeItem{General clerical duties, including file creation and management on the \textit{File Management System} software.}
+        \resumeItem{Assisted in bookkeeping records and managed bills payable, meticulously tallying incoming payments while crosschecking \textit{QuickBooks}. Handled bank deposits during the bookkeeper’s absence.}
+        \resumeItem{Engaged directly with patients with intake screenings and phone call appointment reminders.}
+      \resumeItemListEnd
+    %-----------RP Experience Subheading-----------
+    \resumeSubheading
+      {Operations and Ambassador Program Manager}{Oct 2023 -- Current}
+      {Retaliation Project}{Toronto}
+      \resumeItemListStart
+        \resumeItem{Collaborate with brand owners to navigate logistical challenges, providing support ranging from budgeting, \linebreak to product manufacturing and fulfillment delays.}
+        \resumeItem{Personally overseeing bi-weekly inventory ordering with totals of up to \$100'000 USD, while ensuring accurate estimation of the required ``extra/on-hand'' stock until next orders.}
+        \resumeItem{Successfully oversee the Retaliation Project ``Ambassador Program'', ensuring the fulfillment of social media posting quotas of 75+ Brand Ambassadors through weekly communication.}
+        \resumeItem{Proficiently manage inventory, maintain and update website, and ensure seamless end-to-end order processing on the back-end \textit{Shopify} platform.}
+        \resumeItem{Deliver exceptional customer service while maintaining professionalism; especially during conflict mitigation.}
+        \resumeItem{Playing a pivotal role in enhancing overall operational efficiency, showcasing adaptability and resourcefulness in a dynamic 1st year-startup environment.}
+
+      \resumeItemListEnd
+    %-----------SMH Experience Subheading-----------
+    \resumeSubheading
+      {Volunteer Research Assistant}{June 2022 -- Current}
+      {St. Michael's Hospital, Keenan Research Centre for Biomedical Science}{Toronto}
+        \resumeItemListStart
+            \resumeItem{Integral involvement in the scientific writing process, contributing significantly to the formulation and editing of a manuscript titled ``Inner Dialogue Dysfunction and the Abusive Comments of the Dominant Hemisphere'' for the esteemed peer-reviewed scientific journal, Neurocase.}
+            \resumeItem{Diligently accessed, summarized, presented, and maintained confidential Personal Health Information via Unity Health’s Soarian Clinicals Database and the SMH Memory Clinic Excel Database.}
+            \resumeItem{Collaborated with research team to identify data of interest and irrelevant or redundant data, followed by the amendment of intake questionnaires and consent forms.}
+            \resumeItem{Implementing database alterations to extract, interpret, and visually represent data tailored to the specific needs of ongoing research projects.}
+        \resumeItemListEnd
+
+%-----------End of SubHeading List for Experience Section-------- %
+    
+    \resumeSubHeadingListEnd
+    
+%-----------SKILLS-----------
+\section{Skills}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Soft Skills} $|$ \emph{Developed through the Royal Canadian Army Cadets and Professional Experience}}{}
+          \resumeItemListStart
+                \resumeItem{Highly organized and competent at various forms of data, file, and information management, especially with confidential information.}
+                \resumeItem{Proficient in effectively communicating and presenting complex topics while maintaining clarity.}
+                \resumeItem{Excellent critical thinking and decision-making skills, even under high-stress conditions.}
+                \resumeItem{Exemplary work ethic and punctuality, with consistent and timely delivery of high-quality results.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Hard Skills} $|$ \emph{Developed through Projects and work-place training}}{}
+          \resumeItemListStart
+              \resumeItem{Software: Microsoft Office \& Google Suite, QuickBooks, Shopify, Soarian Clinicals Database, BioPac, BrainStorm.}
+              \resumeItem {Programming Languages: Back-end Python, Git and GitHub, LaTeX.}
+              \resumeItem {3 Years of Laboratory Experience exemplifying precision, organization, and attention to detail.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+\end{document}
+
+%------------------END OF DOCUMENT-------------------------
+
+
+
+
+
+
+
+
+    
+%-----------Cadets Section-----------
+\section{Royal Canadian Army Cadets}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Responsibilities} $|$ \emph{At the 37 Parkside Drive Armoury}}{January 2015 to June 2018}
+          \resumeItemListStart
+            \resumeItem{Weekly Parades on Tuesday Nights, with weekend training exercise and weekend team training. }
+            \resumeItem{Full Time 3rd year cadet Instructor for 2017/2018 Year.  Create lesson plans and teach curriculum material to youth aged 14-15, in addition to supervision of the group of 20 during parade nights and weekend exercises}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Achievements}}{}
+          \resumeItemListStart
+            \resumeItem{Successfully completed the "Drill and Ceremonial Instructor" course and Standard First Aid Qualification during the summer of 2016 in Alpha Company, at Black Down Cadet Training Center, Base Borden Ontario}
+            \resumeItem{Appointed parade position of Senior Rifleman of the 2016/2017 home corps Flag Party Top Gold Star Cadet
+Award 2017}
+            \resumeItem{National Star of Excellence 2017}
+            \resumeItem{Achieved rank of Cadet Warrant Officer in June 2017}
+            \resumeItem{Successfully completed "Leadership and Challenge" course during the summer of 2017 in 3 Platoon at Rocky Mountain Cadet Training
+Center, Cochrane, Alberta}
+            \resumeItem{Appointed parade position of Senior Flag Bearer of the 2017 Rocky Mountain Cadet Training Center Flag Party}
+            \resumeItem{Successfully completed the \textit{Trillium Regional Expedition} }
+            \resumeItem{Appointed parade position of Senior Flag Bearer of the 2017/2018 home corps Flag Party}
+            \resumeItem{3rd Place at regional Orienteering competition Fall 2018}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
